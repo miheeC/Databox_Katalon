@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create_Delete_Account" time="1" tests="0" failures="2" errors="0">
+   <testsuite name="Create_Delete_Account" tests="0" failures="2" errors="0" time="1" timestamp="2018-08-13 11:03:38" hostname="i3 - i3-PC" id="Test Suites/Create_Delete_Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\Create_Delete_Account\\20180813_110335"/>
+         <property name="logFiles" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\Create_Delete_Account\\20180813_110335\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="i3 - i3-PC"/>
+         <property name="hostAddress" value="192.168.1.140"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+      </properties>
+      <testcase name="Test Cases/CreateAccountCompany" classname="Test Cases/CreateAccountCompany" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-08-13 11:03:38 - [TEST_CASE][FAILED] - Test Cases/CreateAccountCompany: Test Cases/CreateAccountCompany FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-08-13 11:03:39 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-08-13 11:03:39 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-08-13 11:03:38 - [TEST_CASE][FAILED] - Test Cases/CreateAccountCompany: Test Cases/CreateAccountCompany FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DeleteAccountCompany" classname="Test Cases/DeleteAccountCompany" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DeleteAccountCompany/Page_Databox/a_KN        Account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)"/>
+         <system-out><![CDATA[2018-08-13 11:03:39 - [TEST_CASE][FAILED] - Test Cases/DeleteAccountCompany: Test Cases/DeleteAccountCompany FAILED because (of) Unable to click on object 'Object Repository/DeleteAccountCompany/Page_Databox/a_KN        Account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-08-13 11:03:39 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DeleteAccountCompany/Page_Databox/a_KN        Account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)
+
+2018-08-13 11:03:39 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-13 11:03:39 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DeleteAccountCompany/Page_Databox/a_KN        Account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+         <system-err><![CDATA[2018-08-13 11:03:39 - [TEST_CASE][FAILED] - Test Cases/DeleteAccountCompany: Test Cases/DeleteAccountCompany FAILED because (of) Unable to click on object 'Object Repository/DeleteAccountCompany/Page_Databox/a_KN        Account' (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-13 11:03:38 - [TEST_SUITE][FAILED] - Create_Delete_Account: Test Cases/CreateAccountCompany FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-out>
+      <system-err><![CDATA[2018-08-13 11:03:38 - [TEST_SUITE][FAILED] - Create_Delete_Account: Test Cases/CreateAccountCompany FAILED because (of) Unable to open browser with url: '' (Root cause: org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: VISTA
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'I3-PC', ip: '192.168.1.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: driver.version: unknown)]]></system-err>
+   </testsuite>
+</testsuites>

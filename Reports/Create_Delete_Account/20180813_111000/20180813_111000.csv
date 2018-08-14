@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create_Delete_Account,,,2018-08-13 11:10:02,2018-08-13 11:10:11,"8,575s",FAILED
+,,,,,,
+Test Cases/CreateAccountCompany,,,2018-08-13 11:10:03,2018-08-13 11:10:10,"7,527s",FAILED
+openBrowser,,,2018-08-13 11:10:03,2018-08-13 11:10:10,"7,016s",FAILED
+,,,,,,
+Test Cases/DeleteAccountCompany,,,2018-08-13 11:10:10,2018-08-13 11:10:11,"0,476s",FAILED
+click,,,2018-08-13 11:10:11,2018-08-13 11:10:11,"0,167s",NOT_RUN
+click,,,2018-08-13 11:10:11,2018-08-13 11:10:11,"0,083s",FAILED

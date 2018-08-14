@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VerifyElementsPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:08,2018-08-14 11:00:25,"16,871s",PASSED
+,,,,,,
+Test Cases/LoginAccountCompany,Chrome 68.0.3440.106,,2018-08-14 11:00:09,2018-08-14 11:00:17,"8,535s",PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-08-14 11:00:09,2018-08-14 11:00:13,"3,786s",PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-14 11:00:13,2018-08-14 11:00:16,"3,151s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 11:00:16,2018-08-14 11:00:17,"0,481s",PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-08-14 11:00:17,2018-08-14 11:00:17,"0,496s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 11:00:17,2018-08-14 11:00:17,"0,229s",PASSED
+,,,,,,
+Test Cases/VerifyElementsPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:17,2018-08-14 11:00:25,"7,172s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:18,2018-08-14 11:00:24,"6,688s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:24,2018-08-14 11:00:24,"0,038s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:24,2018-08-14 11:00:24,"0,040s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:24,2018-08-14 11:00:24,"0,041s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:24,2018-08-14 11:00:24,"0,039s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:24,2018-08-14 11:00:24,"0,037s",PASSED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 11:00:24,2018-08-14 11:00:25,"0,036s",PASSED

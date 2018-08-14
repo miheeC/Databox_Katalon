@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VerifyElementsPresent" time="16" tests="2" failures="0" errors="0">
+   <testsuite name="VerifyElementsPresent" tests="2" failures="0" errors="0" time="16" timestamp="2018-08-14 11:00:08" hostname="i3 - i3-PC" id="Test Suites/VerifyElementsPresent">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\VerifyElementsPresent\\20180814_110006"/>
+         <property name="logFiles" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\VerifyElementsPresent\\20180814_110006\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="i3 - i3-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.140"/>
+         <property name="sessionId" value="484d7c3767dba1de59549c4d4ad934da"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LoginAccountCompany" classname="Test Cases/LoginAccountCompany" status="PASSED">
+         <system-out><![CDATA[2018-08-14 11:00:09 - [TEST_CASE][PASSED] - Test Cases/LoginAccountCompany: Test Cases/LoginAccountCompany
+
+2018-08-14 11:00:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-14 11:00:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-14 11:00:13 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.databox.com/' successfully
+
+2018-08-14 11:00:16 - [MESSAGE][PASSED] - Navigate to 'https://app.databox.com/' successfully
+
+2018-08-14 11:00:16 - [TEST_STEP][PASSED] - setText: Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_email'
+
+2018-08-14 11:00:17 - [MESSAGE][PASSED] - Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_email'
+
+2018-08-14 11:00:17 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_password'
+
+2018-08-14 11:00:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_password'
+
+2018-08-14 11:00:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginAccountCompany/Page_Databox/button_Sign in' is clicked on
+
+2018-08-14 11:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginAccountCompany/Page_Databox/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/VerifyElementsPresent" classname="Test Cases/VerifyElementsPresent" status="PASSED">
+         <system-out><![CDATA[2018-08-14 11:00:17 - [TEST_CASE][PASSED] - Test Cases/VerifyElementsPresent: Test Cases/VerifyElementsPresent
+
+2018-08-14 11:00:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Databoards' is present
+
+2018-08-14 11:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Databoards' is present
+
+2018-08-14 11:00:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Goals' is present
+
+2018-08-14 11:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Goals' is present
+
+2018-08-14 11:00:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Templates' is present
+
+2018-08-14 11:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Templates' is present
+
+2018-08-14 11:00:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Data Manager' is present
+
+2018-08-14 11:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Data Manager' is present
+
+2018-08-14 11:00:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Notifications' is present
+
+2018-08-14 11:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/VerifyElementPresent/Page_Databox/span_Notifications' is present
+
+2018-08-14 11:00:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VerifyElementPresent/Page_Databox/h1_Test Company Name Katalon' is present
+
+2018-08-14 11:00:24 - [MESSAGE][PASSED] - Object 'Object Repository/VerifyElementPresent/Page_Databox/h1_Test Company Name Katalon' is present
+
+2018-08-14 11:00:24 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/VerifyElementPresent/Page_Databox/a_Upgrade' is present
+
+2018-08-14 11:00:25 - [MESSAGE][PASSED] - Object 'Object Repository/VerifyElementPresent/Page_Databox/a_Upgrade' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-14 11:00:08 - [TEST_SUITE][PASSED] - VerifyElementsPresent: Test Cases/VerifyElementsPresent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

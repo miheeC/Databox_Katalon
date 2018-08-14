@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateUser_DeleteUser" time="43" tests="2" failures="1" errors="0">
+   <testsuite name="CreateUser_DeleteUser" tests="2" failures="1" errors="0" time="43" timestamp="2018-08-14 14:27:34" hostname="i3 - i3-PC" id="Test Suites/CreateUser_DeleteUser">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateUser_DeleteUser\\20180814_142731"/>
+         <property name="logFiles" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateUser_DeleteUser\\20180814_142731\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateUser_DeleteUser\\20180814_142731\\1534249697454.png"/>
+         <property name="hostName" value="i3 - i3-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.140"/>
+         <property name="sessionId" value="bd5b7673b57e79334bdde351a773b359"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LoginAccountCompany" classname="Test Cases/LoginAccountCompany" status="PASSED">
+         <system-out><![CDATA[2018-08-14 14:27:34 - [TEST_CASE][PASSED] - Test Cases/LoginAccountCompany: Test Cases/LoginAccountCompany
+
+2018-08-14 14:27:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-14 14:27:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-14 14:27:40 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.databox.com/' successfully
+
+2018-08-14 14:27:43 - [MESSAGE][PASSED] - Navigate to 'https://app.databox.com/' successfully
+
+2018-08-14 14:27:43 - [TEST_STEP][PASSED] - setText: Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_email'
+
+2018-08-14 14:27:44 - [MESSAGE][PASSED] - Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_email'
+
+2018-08-14 14:27:44 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_password'
+
+2018-08-14 14:27:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/LoginAccountCompany/Page_Databox/input_password'
+
+2018-08-14 14:27:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/LoginAccountCompany/Page_Databox/button_Sign in' is clicked on
+
+2018-08-14 14:27:45 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginAccountCompany/Page_Databox/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateUser" classname="Test Cases/CreateUser" status="PASSED">
+         <system-out><![CDATA[2018-08-14 14:27:45 - [TEST_CASE][PASSED] - Test Cases/CreateUser: Test Cases/CreateUser
+
+2018-08-14 14:27:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateUser/Page_Databox/a_KN        Account' is clicked on
+
+2018-08-14 14:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateUser/Page_Databox/a_KN        Account' is clicked on
+
+2018-08-14 14:27:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateUser/Page_Databox/a_User Management' is clicked on
+
+2018-08-14 14:27:58 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateUser/Page_Databox/a_User Management' is clicked on
+
+2018-08-14 14:27:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateUser/Page_Databox/a_New user' is clicked on
+
+2018-08-14 14:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateUser/Page_Databox/a_New user' is clicked on
+
+2018-08-14 14:27:59 - [TEST_STEP][PASSED] - setText: Text 'user 2' is set on object 'Object Repository/CreateUser/Page_Databox/input_name'
+
+2018-08-14 14:27:59 - [MESSAGE][PASSED] - Text 'user 2' is set on object 'Object Repository/CreateUser/Page_Databox/input_name'
+
+2018-08-14 14:27:59 - [TEST_STEP][PASSED] - setText: Text 'mihael+user2katalon@databox.com' is set on object 'Object Repository/CreateUser/Page_Databox/input_email'
+
+2018-08-14 14:28:00 - [MESSAGE][PASSED] - Text 'mihael+user2katalon@databox.com' is set on object 'Object Repository/CreateUser/Page_Databox/input_email'
+
+2018-08-14 14:28:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateUser/Page_Databox/a_Send invitation' is clicked on
+
+2018-08-14 14:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateUser/Page_Databox/a_Send invitation' is clicked on
+
+2018-08-14 14:28:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CreateUser/Page_Databox/strong_User 2' is present
+
+2018-08-14 14:28:02 - [MESSAGE][PASSED] - Object 'Object Repository/CreateUser/Page_Databox/strong_User 2' is present
+
+2018-08-14 14:28:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-08-14 14:28:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-08-14 14:28:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateUser/Page_Databox/span_icon icon-databox-logo' is clicked on
+
+2018-08-14 14:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateUser/Page_Databox/span_icon icon-databox-logo' is clicked on
+
+2018-08-14 14:28:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/CreateUser/Page_Databox/strong_Start here to create yo' is present
+
+2018-08-14 14:28:05 - [MESSAGE][PASSED] - Object 'Object Repository/CreateUser/Page_Databox/strong_Start here to create yo' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DeleteUser" classname="Test Cases/DeleteUser" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' located by 'By.xpath: /span[@class='icon icon-arrow-down']' not found)"/>
+         <system-out><![CDATA[2018-08-14 14:28:05 - [TEST_CASE][FAILED] - Test Cases/DeleteUser: Test Cases/DeleteUser FAILED because (of) Unable to click on object 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' located by 'By.xpath: /span[@class='icon icon-arrow-down']' not found)
+
+2018-08-14 14:28:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteUser/Page_Databox/a_KN        Account' is clicked on
+
+2018-08-14 14:28:05 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteUser/Page_Databox/a_KN        Account' is clicked on
+
+2018-08-14 14:28:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteUser/Page_Databox/a_User Management' is clicked on
+
+2018-08-14 14:28:06 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteUser/Page_Databox/a_User Management' is clicked on
+
+2018-08-14 14:28:06 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' located by 'By.xpath: /span[@class='icon icon-arrow-down']' not found)
+
+2018-08-14 14:28:17 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' located by 'By.xpath: /span[@class='icon icon-arrow-down']' not found)
+[[ATTACHMENT|C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateUser_DeleteUser\\20180814_142731\\1534249697454.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-14 14:28:05 - [TEST_CASE][FAILED] - Test Cases/DeleteUser: Test Cases/DeleteUser FAILED because (of) Unable to click on object 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' located by 'By.xpath: /span[@class='icon icon-arrow-down']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-14 14:27:34 - [TEST_SUITE][FAILED] - CreateUser_DeleteUser: Test Cases/DeleteUser FAILED because (of) Unable to click on object 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' located by 'By.xpath: /span[@class='icon icon-arrow-down']' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-14 14:27:34 - [TEST_SUITE][FAILED] - CreateUser_DeleteUser: Test Cases/DeleteUser FAILED because (of) Unable to click on object 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DeleteUser/Page_Databox/span_icon icon-arrow-down' located by 'By.xpath: /span[@class='icon icon-arrow-down']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="CreateDataboard" time="71" tests="1" failures="1" errors="0">
+   <testsuite name="CreateDataboard" tests="1" failures="1" errors="0" time="71" timestamp="2018-08-14 10:28:47" hostname="i3 - i3-PC" id="Test Suites/CreateDataboard">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateDataboard\\20180814_102844"/>
+         <property name="logFiles" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateDataboard\\20180814_102844\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateDataboard\\20180814_102844\\1534235397615.png"/>
+         <property name="hostName" value="i3 - i3-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.140"/>
+         <property name="sessionId" value="9fd41719bae970f5b031eb770a79f888"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/LoginAccountCompany" classname="Test Cases/LoginAccountCompany" status="PASSED">
+         <system-out><![CDATA[2018-08-14 10:28:47 - [TEST_CASE][PASSED] - Test Cases/LoginAccountCompany: Test Cases/LoginAccountCompany
+
+2018-08-14 10:28:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-14 10:28:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-14 10:28:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.databox.com/' successfully
+
+2018-08-14 10:28:56 - [MESSAGE][PASSED] - Navigate to 'https://app.databox.com/' successfully
+
+2018-08-14 10:28:56 - [TEST_STEP][PASSED] - setText: Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/Login/Page_Databox/input_email'
+
+2018-08-14 10:28:57 - [MESSAGE][PASSED] - Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/Login/Page_Databox/input_email'
+
+2018-08-14 10:28:57 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Login/Page_Databox/input_password'
+
+2018-08-14 10:28:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Page_Databox/input_password'
+
+2018-08-14 10:28:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login/Page_Databox/button_Sign in' is clicked on
+
+2018-08-14 10:28:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Page_Databox/button_Sign in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/CreateDataboard" classname="Test Cases/CreateDataboard" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/CreateDataboard/Page_Databox/a_Use template' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateDataboard/Page_Databox/a_Use template' located by 'By.xpath: id(&quot;ember2149&quot;)/div[@class=&quot;overlay&quot;]/a[@class=&quot;greenbutton&quot;][count(. | //*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')]) = count(//*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')])]' not found)"/>
+         <system-out><![CDATA[2018-08-14 10:28:58 - [TEST_CASE][FAILED] - Test Cases/CreateDataboard: Test Cases/CreateDataboard FAILED because (of) Unable to click on object 'Object Repository/CreateDataboard/Page_Databox/a_Use template' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateDataboard/Page_Databox/a_Use template' located by 'By.xpath: id("ember2149")/div[@class="overlay"]/a[@class="greenbutton"][count(. | //*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')]) = count(//*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')])]' not found)
+
+2018-08-14 10:28:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateDataboard/Page_Databox/div_ Create New Databoard' is clicked on
+
+2018-08-14 10:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateDataboard/Page_Databox/div_ Create New Databoard' is clicked on
+
+2018-08-14 10:29:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateDataboard/Page_Databox/span_icon icon-wand' is clicked on
+
+2018-08-14 10:29:08 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateDataboard/Page_Databox/span_icon icon-wand' is clicked on
+
+2018-08-14 10:29:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateDataboard/Page_Databox/a_Choose a template' is clicked on
+
+2018-08-14 10:29:13 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateDataboard/Page_Databox/a_Choose a template' is clicked on
+
+2018-08-14 10:29:13 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/CreateDataboard/Page_Databox/a_Use template' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateDataboard/Page_Databox/a_Use template' located by 'By.xpath: id("ember2149")/div[@class="overlay"]/a[@class="greenbutton"][count(. | //*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')]) = count(//*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')])]' not found)
+
+2018-08-14 10:29:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/CreateDataboard/Page_Databox/a_Use template' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateDataboard/Page_Databox/a_Use template' located by 'By.xpath: id("ember2149")/div[@class="overlay"]/a[@class="greenbutton"][count(. | //*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')]) = count(//*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')])]' not found)
+[[ATTACHMENT|C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\CreateDataboard\\20180814_102844\\1534235397615.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-14 10:28:58 - [TEST_CASE][FAILED] - Test Cases/CreateDataboard: Test Cases/CreateDataboard FAILED because (of) Unable to click on object 'Object Repository/CreateDataboard/Page_Databox/a_Use template' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateDataboard/Page_Databox/a_Use template' located by 'By.xpath: id("ember2149")/div[@class="overlay"]/a[@class="greenbutton"][count(. | //*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')]) = count(//*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-14 10:28:47 - [TEST_SUITE][FAILED] - CreateDataboard: Test Cases/CreateDataboard FAILED because (of) Unable to click on object 'Object Repository/CreateDataboard/Page_Databox/a_Use template' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateDataboard/Page_Databox/a_Use template' located by 'By.xpath: id("ember2149")/div[@class="overlay"]/a[@class="greenbutton"][count(. | //*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')]) = count(//*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-14 10:28:47 - [TEST_SUITE][FAILED] - CreateDataboard: Test Cases/CreateDataboard FAILED because (of) Unable to click on object 'Object Repository/CreateDataboard/Page_Databox/a_Use template' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/CreateDataboard/Page_Databox/a_Use template' located by 'By.xpath: id("ember2149")/div[@class="overlay"]/a[@class="greenbutton"][count(. | //*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')]) = count(//*[@data-ember-action-2154 = '2154' and (text() = 'Use template' or . = 'Use template')])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

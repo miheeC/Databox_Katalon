@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create_Delete_Account" time="30" tests="2" failures="0" errors="0">
+   <testsuite name="Create_Delete_Account" tests="2" failures="0" errors="0" time="30" timestamp="2018-08-13 11:23:36" hostname="i3 - i3-PC" id="Test Suites/Create_Delete_Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\Create_Delete_Account\\20180813_112334"/>
+         <property name="logFiles" value="C:\\Users\\i3\\Katalon Studio\\Databox_Katalon\\Reports\\Create_Delete_Account\\20180813_112334\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="i3 - i3-PC"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.1.140"/>
+         <property name="sessionId" value="fd30cef358a3d9b3222ef1d0b5c5117a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/CreateAccountCompany" classname="Test Cases/CreateAccountCompany" status="PASSED">
+         <system-out><![CDATA[2018-08-13 11:23:37 - [TEST_CASE][PASSED] - Test Cases/CreateAccountCompany: Test Cases/CreateAccountCompany
+
+2018-08-13 11:23:37 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-08-13 11:23:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-08-13 11:23:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://app.databox.com/' successfully
+
+2018-08-13 11:23:44 - [MESSAGE][PASSED] - Navigate to 'https://app.databox.com/' successfully
+
+2018-08-13 11:23:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateAccountCompany/Page_Databox/a_Sign up' is clicked on
+
+2018-08-13 11:23:47 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccountCompany/Page_Databox/a_Sign up' is clicked on
+
+2018-08-13 11:23:47 - [TEST_STEP][PASSED] - setText: Text 'Katalon Name Test' is set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_name'
+
+2018-08-13 11:23:48 - [MESSAGE][PASSED] - Text 'Katalon Name Test' is set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_name'
+
+2018-08-13 11:23:48 - [TEST_STEP][PASSED] - setText: Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_email'
+
+2018-08-13 11:23:49 - [MESSAGE][PASSED] - Text 'mihael+katalontest@databox.com' is set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_email'
+
+2018-08-13 11:23:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_password'
+
+2018-08-13 11:23:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_password'
+
+2018-08-13 11:23:50 - [TEST_STEP][PASSED] - setText: Text 'Test Company Name Katalon' is set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_company'
+
+2018-08-13 11:23:50 - [MESSAGE][PASSED] - Text 'Test Company Name Katalon' is set on object 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/input_company'
+
+2018-08-13 11:23:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/span_Create your Account' is clicked on
+
+2018-08-13 11:23:51 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/span_Create your Account' is clicked on
+
+2018-08-13 11:23:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/label_Company Account' is clicked on
+
+2018-08-13 11:23:52 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/label_Company Account' is clicked on
+
+2018-08-13 11:23:52 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/button_Continue' is clicked on
+
+2018-08-13 11:23:56 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccountCompany/Page_Databox  Create Account  Get S/button_Continue' is clicked on
+
+2018-08-13 11:23:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/CreateAccountCompany/Page_Databox/a_I want to skip the onboardin' is clicked on
+
+2018-08-13 11:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/CreateAccountCompany/Page_Databox/a_I want to skip the onboardin' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DeleteAccountCompany" classname="Test Cases/DeleteAccountCompany" status="PASSED">
+         <system-out><![CDATA[2018-08-13 11:24:01 - [TEST_CASE][PASSED] - Test Cases/DeleteAccountCompany: Test Cases/DeleteAccountCompany
+
+2018-08-13 11:24:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteAccountCompany/Page_Databox/a_KN        Account' is clicked on
+
+2018-08-13 11:24:02 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAccountCompany/Page_Databox/a_KN        Account' is clicked on
+
+2018-08-13 11:24:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteAccountCompany/Page_Databox/a_Account Details' is clicked on
+
+2018-08-13 11:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAccountCompany/Page_Databox/a_Account Details' is clicked on
+
+2018-08-13 11:24:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteAccountCompany/Page_Databox/a_Yes cancel my account.' is clicked on
+
+2018-08-13 11:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAccountCompany/Page_Databox/a_Yes cancel my account.' is clicked on
+
+2018-08-13 11:24:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DeleteAccountCompany/Page_Databox/span_Confirm' is clicked on
+
+2018-08-13 11:24:04 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteAccountCompany/Page_Databox/span_Confirm' is clicked on
+
+2018-08-13 11:24:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/DeleteAccountCompany/Page_Databox/div_SIGN IN' is present
+
+2018-08-13 11:24:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-13 11:24:06 - [MESSAGE][PASSED] - Object 'Object Repository/DeleteAccountCompany/Page_Databox/div_SIGN IN' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-13 11:23:36 - [TEST_SUITE][PASSED] - Create_Delete_Account: Test Cases/DeleteAccountCompany]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+VerifyElementsPresent,Chrome 68.0.3440.106,,2018-08-14 10:57:46,2018-08-14 10:57:57,"10,947s",FAILED
+,,,,,,
+Test Cases/LoginAccountCompany,Chrome 68.0.3440.106,,2018-08-14 10:57:47,2018-08-14 10:57:56,"9,092s",PASSED
+openBrowser,Chrome 68.0.3440.106,,2018-08-14 10:57:47,2018-08-14 10:57:51,"3,830s",PASSED
+navigateToUrl,Chrome 68.0.3440.106,,2018-08-14 10:57:51,2018-08-14 10:57:54,"3,388s",PASSED
+setText,Chrome 68.0.3440.106,,2018-08-14 10:57:54,2018-08-14 10:57:55,"0,508s",PASSED
+setEncryptedText,Chrome 68.0.3440.106,,2018-08-14 10:57:55,2018-08-14 10:57:55,"0,575s",PASSED
+click,Chrome 68.0.3440.106,,2018-08-14 10:57:55,2018-08-14 10:57:56,"0,290s",PASSED
+,,,,,,
+Test Cases/VerifyElementsPresent,Chrome 68.0.3440.106,,2018-08-14 10:57:56,2018-08-14 10:57:56,"0,661s",FAILED
+verifyElementPresent,Chrome 68.0.3440.106,,2018-08-14 10:57:56,2018-08-14 10:57:56,"0,410s",FAILED
